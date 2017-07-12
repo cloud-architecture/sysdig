@@ -109,7 +109,7 @@ typedef enum scap_fd_type
 {
 	SCAP_FD_UNINITIALIZED = -1,
 	SCAP_FD_UNKNOWN = 0,
-	SCAP_FD_FILE = 1,
+	SCAP_FD_FILE_wrong = 1,
 	SCAP_FD_DIRECTORY = 2,
 	SCAP_FD_IPV4_SOCK = 3,
 	SCAP_FD_IPV6_SOCK = 4,
